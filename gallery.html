@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>GALLERY POTO</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head> 
+<body>
+<div id=wadahcontent>
+	<div id="header"></div>
+	<div id="navigasi">
+        <a href="index.html">HOME</a>
+		<a href="Gallery.html">GALLERY</a>
+		<a href="CONTACTUS.html">CONTACT US</a>
+		<a href="Aboutus.html">ABOUT US</a>
+		<div id="date-time">
+
+    <script>
+        function updateDateTime() {
+            var now = new Date();
+            var options = {
+                weekday: 'long',
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric',
+                hour: 'numeric',
+                minute: 'numeric',
+                second: 'numeric',
+                timeZoneName: 'short'
+            };
+
+            var dateTimeString = now.toLocaleDateString('en-US', options);
+
+            document.getElementById('date-time').innerText = dateTimeString;
+        }
+
+        // Update date and time every second
+        setInterval(updateDateTime, 1000);
+
+        // Initial call to display date and time immediately
+        updateDateTime();
+    </script>
+</body>
+	</div>
+	<div id="content">
+		<h1>BORUTO GENERATIONS</h1>
+		<div class="galeri">
+			<img src="fuck.jpg">
+		</div>
+		<div class="galeri">
+			<img src="anjay.jpg">
+		</div>
+		<div class="galeri">
+			<img src="kiw.jpg">
+		</div>
+		<div class="galeri">
+			<img src="iwi.jpg">
+		</div>
+		<div class="galeri">
+			<img src="sue.jpg">
+		</div>
+		<div class="galeri">
+			<img src="sae.jpg">
+		</div>
+		<p>BORUTO NEXT GENERATION</p>
+		<div id="footer">
+		<p>&copy; Copyrigt 2023 - MUHAMMAD RAFLY AKBAR [ NIM-231011700473]</p>
+	</div>
+	<div></div>
+</div>
+</body>
+</html>
